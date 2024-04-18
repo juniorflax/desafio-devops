@@ -10,6 +10,9 @@
 - github 
   - github actions
   
+# Criado repositorio dockerhub
+
+https://hub.docker.com/repository/docker/juniorflax/desafio-devops
 
 * Start da app
 
