@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: desafio-devops
-        image: juniorflax/desafio-devops:latest
+        image: juniorflax/desafio-devops:v1
         ports:
         - containerPort: 8000
       imagePullSecrets:
