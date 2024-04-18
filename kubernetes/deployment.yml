@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: desafio-devops
+  namespace: desafio-devops
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: desafio-devops
+  template:
+    metadata:
+      labels:
+        app: desafio-devops
+    spec:
+      containers:
+      - name: desafio-devops
+        image: juniorflax/desafio-devops:latest
+        ports:
+        - containerPort: 8000
+      imagePullSecrets:
+      - name: juniorflax-dockerhub
