@@ -14,6 +14,8 @@
 
 https://hub.docker.com/repository/docker/juniorflax/desafio-devops
 
+Adicionado secrets para conexão dockerhub
+
 * Start da app
 
 ```
