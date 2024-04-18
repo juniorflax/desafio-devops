@@ -35,7 +35,7 @@ jobs:
   
     - name: Build the Docker image
       working-directory: app
-      run: docker build . --file Dockerfile --tag ${{ secrets.USER_DOCKERHUB }}/desafio-devops:v3
+      run: docker build . --file Dockerfile --tag ${{ secrets.USER_DOCKERHUB }}/desafio-devops:v4
 
     - name: Login DockerHub
       uses: docker/login-action@v3.1.0
@@ -45,4 +45,4 @@ jobs:
         
     - name: Push the Docker image
       working-directory: app
-      run: docker push ${{ secrets.USER_DOCKERHUB }}/desafio-devops:v3         
+      run: docker push ${{ secrets.USER_DOCKERHUB }}/desafio-devops:v4         
