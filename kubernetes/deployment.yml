@@ -4,7 +4,7 @@ metadata:
   name: desafio-devops
   namespace: desafio-devops
 spec:
-  replicas: 4
+  replicas: 2
   selector:
     matchLabels:
       app: desafio-devops
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: desafio-devops
-        image: juniorflax/desafio-devops:v4
+        image: juniorflax/desafio-devops:v0.1
         ports:
         - containerPort: 8000
       imagePullSecrets:
