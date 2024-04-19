@@ -1,3 +1,8 @@
+
+# Desenho ambiente
+
+![Desenho ambiente](https://github.com/juniorflax/desafio-devops/tree/main/imagem/desafio-devops.jpg)
+
 # Ambiente de desenvolvimento
 
 - vscode
