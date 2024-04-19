@@ -1,7 +1,11 @@
 
+# link Youtube
+
+https://youtu.be/VWxP4qF899k
+
 # Desenho ambiente
 
-![Desenho ambiente](https://github.com/juniorflax/desafio-devops/tree/main/imagem/desafio-devops.jpg)
+![Desenho ambiente](https://github.com/juniorflax/desafio-devops/blob/main/imagem/desafio-devops.jpg?raw=true)
 
 # Ambiente de Desenvolvimento
 
