@@ -3,7 +3,7 @@
 
 ![Desenho ambiente](https://github.com/juniorflax/desafio-devops/tree/main/imagem/desafio-devops.jpg)
 
-# Ambiente de desenvolvimento
+# Ambiente de Desenvolvimento
 
 - vscode
 - virtualbox 
@@ -14,6 +14,15 @@
 
 - github 
   - github actions
+
+# Ambiente Produção
+
+- Rancher
+- Kubernetes
+- ArgoCD 
+- Metallb ( LoadBalancer )
+- Let's Encript
+- Nginx
   
 # Criado repositorio dockerhub
 
